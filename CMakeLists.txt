@@ -29,8 +29,7 @@ set(DETOURS_SRC "${DETOURS_SRC_ROOT}/creatwth.cpp"
                 "${DETOURS_SRC_ROOT}/disolx64.cpp"
                 "${DETOURS_SRC_ROOT}/disolx86.cpp"
                 "${DETOURS_SRC_ROOT}/image.cpp"
-                "${DETOURS_SRC_ROOT}/modules.cpp"
-                "${DETOURS_SRC_ROOT}/uimports.cpp")
+                "${DETOURS_SRC_ROOT}/modules.cpp")
 target_sources(detours PRIVATE ${DETOURS_SRC})
 
 # Public include directory...
